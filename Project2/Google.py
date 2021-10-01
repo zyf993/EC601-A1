@@ -1,9 +1,10 @@
 from google.cloud import language
 
 def analyze_text_sentiment(text):
+    #Instantiates a client
     client = language.LanguageServiceClient()
     document = language.Document(content=text, type_=language.Document.Type.PLAIN_TEXT)
-
+    #Call API to analyze text
     response = client.analyze_sentiment(document=document)
 
     sentiment = response.document_sentiment
@@ -16,5 +17,5 @@ def analyze_text_sentiment(text):
         print(f"{k:10}: {v}")
 
 
-text = " "
+text = " " #can be import from tweet file
 analyze_text_sentiment(text)

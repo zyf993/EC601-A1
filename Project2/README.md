@@ -2,7 +2,10 @@
 Reference : Tweepy link "https://docs.tweepy.org/en/latest/#" use the library and most model here.
 # Phase 1
 Twitter delayed the developer account application. Notified at the beginning.
-Make sure to use the command install tweepy, after choosing the command, find function names in this given verison library. For example, some verisions have function name as "search_id" insead of "search"
+Twitter:
+Make sure to use the command install tweepy, after choosing the command, find function names in this given verison library.
+
+For example, some verisions have function name as "search_id" insead of "search"
 ```
 pip install tweepy
 ```
@@ -14,3 +17,20 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 ```
 After all settings, apple model and edit code to test the features of twitter api.
+
+GoogleNLP:
+To set the googleNLP, we need to have the google cloud account open and create a project. 
+
+Under the project, create a key and download it. Make sure enable API for this project.
+
+If you choose key as a json file, apply CREDENTIALS for google by
+```
+set GOOGLE_APPLICATION_CREDENTIALS=KEY_PATH
+```
+using cmd, or PowerShell
+```
+$env:GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
+```
+Every time open a new cmd, you need to redo the above code, or you can write it in code to avoid reset.
+
+Also you need to download the Google Cloud SDK Shell to link to your cloud. After the setting, you can apply the code.

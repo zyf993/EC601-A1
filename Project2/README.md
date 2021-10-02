@@ -1,5 +1,5 @@
 # Project 2
-Reference : Tweepy link "https://docs.tweepy.org/en/latest/#" use the library and most model here.
+Reference : Tweepy link "https://docs.tweepy.org/en/latest/#" use the library and most model here. GoogleNLP model can be checked at the offical website. If using python: "https://codelabs.developers.google.com/codelabs/cloud-natural-language-python3"
 # Phase 1
 Twitter delayed the developer account application. Notified at the beginning.
 

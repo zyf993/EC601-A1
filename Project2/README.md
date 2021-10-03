@@ -35,3 +35,5 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
 Every time open a new cmd, you need to redo the above code, or you can write it in code to avoid reset.
 
 Also you need to download the Google Cloud SDK Shell to link to your cloud. After the setting, you can apply the code.
+# Phase 2
+For my use case, I plan to let users to find the most recent news or information that related with their search key words. For example, someone tries to find out what's going on in Boston this week.

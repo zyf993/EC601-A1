@@ -48,7 +48,9 @@ f.close()
 ```
 What I do here is to type key words "Boston" and most recent 10 tweets from September.
 In googlenlp file I find the result as
+
 Score: 0.0%
+
 Magnitude: 310.00%
 
 

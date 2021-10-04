@@ -36,4 +36,18 @@ Every time open a new cmd, you need to redo the above code, or you can write it 
 
 Also you need to download the Google Cloud SDK Shell to link to your cloud. After the setting, you can apply the code.
 # Phase 2
-For my use case, I plan to let users to find the most recent news or information that related with their search key words. For example, someone tries to find out what's going on in Boston this week.
+For my use case, I plan to let users to find the most recent news or information that related with their search key words. And the Google NLP can analysis and give a semtiment score and magnitude towards these tweets's  information. For example, someone tries to find out what's going on in Boston this week.
+
+You can read and write the results from tweet file and import in google NLP to get the analysis result by
+```
+f=open("tweets.txt","w",encoding='utf-8')
+     
+for line in search_tweets():
+    f.write(line+'\n')
+f.close()
+```
+What I do here is to type key words "Boston" and most recent 10 tweets from September.
+In googlenlp file I find the result as below
+ 
+
+

@@ -47,9 +47,28 @@ for line in search_tweets():
 f.close()
 ```
 What I do here is to type key words "Boston" and most recent 10 tweets from September.
-In googlenlp file I find the result as
+In googlenlp file I find the result as the following text file
+```
+RT @PeteBlackburn: Boston eliminating Toronto from the postseason and it's not even hockey season yet
+RT @artprendergast: Franklin Park, Boston, 1897 #impressionism #mauriceprendergast https://t.co/kr9MNTDb9r
+Would love to go to Boston again soon
+They keep showing clips of Boston like it’s not 45+ minutes from Gillette Stadium
+RT @mitchlafon: Aerosmith Chip Away At The Stone! 
 
-![alt text](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/QgrcJHrnxSwHMXdcjKSKlMfsfZJDXWLsfqG?projector=1&messagePartId=0.1)
+The new single from Live! Bootleg
+
+This ad is from December 1978…
+
+This image would lat…
+RT @MRVChennai: Before we discuss SRK's son's tryst with drugs we MUST discuss pappu's tryst with Boston Police! Anyone?
+Boston
+RT @_InfiniteRP: The penultimate episode of our Flames of Freedom: Boston Besieged game is now up on YouTube!
+Make sure to catch up in time…
+RT @leahmcelrath: Remember when Boston Dynamics introduced autonomous mobile robotics to the public 
+by calling them “robot dogs” and showin…
+@ohhenryTOTFC @JonHeyman They have the same record (92-70). Boston won the season series between the teams.
+```
+In googlenlp file returns the result as
 
 Score: 0.0%
 

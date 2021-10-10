@@ -49,7 +49,7 @@ f.close()
 What I do here is to type key words "Boston" and most recent 10 tweets from September.
 In googlenlp file I find the result as
 
-![alt text](C:\Users\zyf19\OneDrive\Desktop\tweetsearch.PNG)
+![alt text](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/QgrcJHrnxSwHMXdcjKSKlMfsfZJDXWLsfqG?projector=1&messagePartId=0.1)
 
 Score: 0.0%
 

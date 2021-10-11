@@ -41,8 +41,7 @@ def search_tweets():
     for tweet in tweets:
         return(tweet.text)
 
-
-
+    
 if __name__ == '__main__':
     print(twitter_content())
     print(My_Home_tweets())

@@ -47,28 +47,61 @@ for line in search_tweets():
 f.close()
 ```
 What I do here is to type key words "Boston" and most recent 10 tweets from September.
-In googlenlp file I find the result as
+In text file I find the result as
 
+```
+RT @BleacherReport: RED SOX WALK IT OFF IN THE 13TH 😱 @BRWalkoff
+
+Christian Vásquez gives Boston a 2-1 series lead https://t.co/ke6sWtMawS
+BOSTON STRONNNGGG https://t.co/pTJSQSZ1zp
+Im so glad i didnt go to boston, id be in jail tonight
+RT @KFILE: Team Beans, if you got a Team Beans Boston Marathon shirt. 
+We'd love if posted a photo of yourself in it tomorrow with the hasht…
+RT @BleacherReport: RED SOX WALK IT OFF IN THE 13TH 😱 @BRWalkoff
+
+Christian Vásquez gives Boston a 2-1 series lead https://t.co/ke6sWtMawS
+@TBTimes_Rays Can you explain why Interference wasn’t called when Boston’s 1 st basemen tripped Arozerena??
+Man do I wish I was in Boston right now #electric
+WHAT A WAY TO END IT!!!
+
+AFTER 5+ HOURS WE’VE GOT PANDEMONIUM IN BOSTON 
+ https://t.co/sp4GQVmTfl
+ To be clear, the *regular* ground-rule double rule also creates a lot of unfair/nonsensical situations 
+ w/r/t runner… https://t.co/q9b1Kv0ILB
+RT @BleacherReport: RED SOX WALK IT OFF IN THE 13TH 😱 @BRWalkoff
+
+Christian Vásquez gives Boston a 2-1 series lead https://t.co/ke6sWtMawS
+
+```
 Score: 0.0%
 
 Magnitude: 310.00%
 
 Another of the example is to deal with the COVID news and we can see the difference with the one th key words "Boston" above
 ```
-RT @SallyLawry: What @Barnaby_Joyce doesn�t realise it is the regions in WA that are at the greatest risk of Covid . People from metro WA a�
-RT @DmSambalpur: Helpline numbers for Covid-19 Vaccination for the  citizens who are bed-ridden or having extreamly restricted mobility or�
-RT @skye_daddy: Yeah yeah yeah and our weapon of mass destruction is asymptomatic covid..we know, we know� https://t.co/DW4VEESLwY
-RT @drdavidsamadi: We need to know the origins of COVID-19 so we can make sure we NEVER have another virus like it again!
+RT @SallyLawry: What @Barnaby_Joyce doesn’t realise it is the regions in WA that are at the greatest risk of Covid .
+People from metro WA a…
+RT @DmSambalpur: Helpline numbers for Covid-19 Vaccination for the  citizens who are bed-ridden or 
+having extreamly restricted mobility or…
+RT @skye_daddy: Yeah yeah yeah and our weapon of mass destruction is asymptomatic covid..we know, 
+we know… https://t.co/DW4VEESLwY
+RT @drdavidsamadi: We need to know the origins of COVID-19 so we can make sure 
+we NEVER have another virus like it again!
 
-This is not poli�
-RT @benheck: 3 word solution to weak job reports/labor shortage: DITCH THE MASKS. Now, all the COVID-Karens who make 6 figure salaries work�
-RT @OttenbergEve: Cuba leads global covid vaccine rates per 100 inhabitants, Telesur reports. It also developed 5 vaccines including pediat�
-RT @SeguraOSD: I'm sick with #COVID, but working on some #OSDBuilder updates. Hello #Windows11 ... goodbye #Windows7 #Server2016 #Windows10�
+This is not poli…
+RT @benheck: 3 word solution to weak job reports/labor shortage: DITCH THE MASKS. Now, 
+all the COVID-Karens who make 6 figure salaries work…
+RT @OttenbergEve: Cuba leads global covid vaccine rates per 100 inhabitants, Telesur reports. 
+It also developed 5 vaccines including pediat…
+RT @SeguraOSD: I'm sick with #COVID, but working on some #OSDBuilder updates. Hello #Windows11 ... 
+goodbye #Windows7 #Server2016 #Windows10…
 RT @TheLastRefuge2: Eleven simple truths, you can fact check, that tell you all of these government COVID rules are not about health.
 
-1) W�
-RT @ElectionWiz: REPORT: The union representing pilots for American Airlines warned the company could face a staffing shortage ahead of the�
-RT @BrianMteleSUR: Public prosecutors investigate claims that the Brazilian Army stationed Captains in military hospital consulting rooms i�
+1) W…
+RT @ElectionWiz: REPORT: The union representing pilots for American Airlines warned the company 
+could face a staffing shortage ahead of the…
+RT @BrianMteleSUR: Public prosecutors investigate claims that the Brazilian Army stationed Captains 
+in military hospital consulting rooms i…
 ```
 
 score     : -30.0%

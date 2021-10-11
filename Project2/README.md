@@ -47,32 +47,31 @@ for line in search_tweets():
 f.close()
 ```
 What I do here is to type key words "Boston" and most recent 10 tweets from September.
-In googlenlp file I find the result as the following text file
-```
-RT @PeteBlackburn: Boston eliminating Toronto from the postseason and it's not even hockey season yet
-RT @artprendergast: Franklin Park, Boston, 1897 #impressionism #mauriceprendergast https://t.co/kr9MNTDb9r
-Would love to go to Boston again soon
-They keep showing clips of Boston like it‚Äôs not 45+ minutes from Gillette Stadium
-RT @mitchlafon: Aerosmith Chip Away At The Stone! 
-
-The new single from Live! Bootleg
-
-This ad is from December 1978‚Ä¶
-
-This image would lat‚Ä¶
-RT @MRVChennai: Before we discuss SRK's son's tryst with drugs we MUST discuss pappu's tryst with Boston Police! Anyone?
-Boston
-RT @_InfiniteRP: The penultimate episode of our Flames of Freedom: Boston Besieged game is now up on YouTube!
-Make sure to catch up in time‚Ä¶
-RT @leahmcelrath: Remember when Boston Dynamics introduced autonomous mobile robotics to the public 
-by calling them ‚Äúrobot dogs‚Äù and showin‚Ä¶
-@ohhenryTOTFC @JonHeyman They have the same record (92-70). Boston won the season series between the teams.
-```
-In googlenlp file returns the result as
+In googlenlp file I find the result as
 
 Score: 0.0%
 
 Magnitude: 310.00%
 
+Another of the example is to deal with the COVID news and we can see the difference with the one th key words "Boston" above
+```
+RT @SallyLawry: What @Barnaby_Joyce doesnít realise it is the regions in WA that are at the greatest risk of Covid . People from metro WA aÖ
+RT @DmSambalpur: Helpline numbers for Covid-19 Vaccination for the  citizens who are bed-ridden or having extreamly restricted mobility orÖ
+RT @skye_daddy: Yeah yeah yeah and our weapon of mass destruction is asymptomatic covid..we know, we knowÖ https://t.co/DW4VEESLwY
+RT @drdavidsamadi: We need to know the origins of COVID-19 so we can make sure we NEVER have another virus like it again!
+
+This is not poliÖ
+RT @benheck: 3 word solution to weak job reports/labor shortage: DITCH THE MASKS. Now, all the COVID-Karens who make 6 figure salaries workÖ
+RT @OttenbergEve: Cuba leads global covid vaccine rates per 100 inhabitants, Telesur reports. It also developed 5 vaccines including pediatÖ
+RT @SeguraOSD: I'm sick with #COVID, but working on some #OSDBuilder updates. Hello #Windows11 ... goodbye #Windows7 #Server2016 #Windows10Ö
+RT @TheLastRefuge2: Eleven simple truths, you can fact check, that tell you all of these government COVID rules are not about health.
+
+1) WÖ
+RT @ElectionWiz: REPORT: The union representing pilots for American Airlines warned the company could face a staffing shortage ahead of theÖ
+RT @BrianMteleSUR: Public prosecutors investigate claims that the Brazilian Army stationed Captains in military hospital consulting rooms iÖ
+```
+
+score     : -30.0%
+magnitude : 580.0%
 
 

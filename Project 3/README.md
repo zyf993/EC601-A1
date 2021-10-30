@@ -18,7 +18,6 @@ class TestCaseRun(unittest.TestCase):
 	    else:
 	        print("Passed, the score is positive")
 ```
-
 The result display as:
 Failed, the score is not positive
 .

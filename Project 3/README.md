@@ -5,7 +5,9 @@ It is important that you import the unittest from python to enable the Unit test
 from Google_analysis import analyze_text_sentiment
 import unittest
 ```
-The class the unittest and run it
+
+Then class the unittest and run it
+
 ```
 class TestCaseRun(unittest.TestCase):
 	def test_sentiment_score(self):
@@ -16,6 +18,7 @@ class TestCaseRun(unittest.TestCase):
 	    else:
 	        print("Passed, the score is positive")
 ```
+
 The result display as:
 Failed, the score is not positive
 .

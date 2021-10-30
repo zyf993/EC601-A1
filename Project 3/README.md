@@ -15,11 +15,10 @@ class TestCaseRun(unittest.TestCase):
 	        print("Passed, the score is positive")
 ```
 The result display as:
-```
 Failed, the score is not positive
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.355s
 
 OK
-```
+

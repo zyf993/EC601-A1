@@ -9,22 +9,23 @@ import unittest
 Then class the unittest and run it
 
 ```
-class TestCaseRun(unittest.TestCase):
+class TestStringMethods(unittest.TestCase):
 	def test_sentiment_score(self):
 	    S = analyze_text_sentiment(text)
-	    # print(S)
-	    if S <= 0:
-	        print("Failed, the score is not positive")
-	    else:
-	        print("Passed, the score is positive")
+	    msg = 'score is smaller than zero'
+	    self.assertTrue(S >= 0, msg)
 ```
+
+Also test if the api can get messages instead of None from twitter by using the following code.
+```
+self.assertIsNotNone(twitter_content, message)
+```
+
 The result display as:
 ```
-Failed, the score is not positive
-.
+..
 ----------------------------------------------------------------------
-Ran 1 test in 0.355s
+Ran 2 tests in 0.274s
 
 OK
 ```
-

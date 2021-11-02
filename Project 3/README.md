@@ -29,3 +29,6 @@ Ran 2 tests in 0.274s
 
 OK
 ```
+# Project 3b
+
+Reviewed other's code and wrote an issue on his GitHub.

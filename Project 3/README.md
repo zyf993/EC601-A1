@@ -12,7 +12,6 @@ Then class the unittest and run it
 class TestStringMethods(unittest.TestCase):
 	def test_sentiment_score(self):
 	    S = analyze_text_sentiment(text)
-	    # assert S >= 0
 	    msg = 'score is smaller than zero'
 	    self.assertTrue(S >= 0, msg)
 ```

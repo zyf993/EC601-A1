@@ -15,6 +15,12 @@ class TestStringMethods(unittest.TestCase):
 	    msg = 'score is smaller than zero'
 	    self.assertTrue(S >= 0, msg)
 ```
+
+Also test if the api can get messages instead of None from twitter by using the following code.
+```
+self.assertIsNotNone(twitter_content, message)
+```
+
 The result display as:
 ```
 ..
@@ -22,8 +28,4 @@ The result display as:
 Ran 2 tests in 0.274s
 
 OK
-```
-Also test if the api can get messages instead of None from twitter by using the following code.
-```
-self.assertIsNotNone(twitter_content, message)
 ```
